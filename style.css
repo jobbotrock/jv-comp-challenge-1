@@ -1,0 +1,93 @@
+body {
+  background-color: #3b556f;
+}
+
+.button {
+  justify-self: end;
+}
+
+header {
+  height: 200px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  grid.
+  justify-self: end;
+}
+
+div {
+  height: 15px;
+}
+
+h1 {
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: .5em;
+  grid-auto-rows: minmax(2px, auto);
+  border-radius: 15px;
+  font-family: arial;
+  color: white;
+  margin: 5px;
+  border: 5px;
+  border-color: black;
+  padding: 1px;
+  text-align: center;
+  background-color: #adb2b4;
+}
+
+#water {
+grid-column-start: 1;
+}
+
+/* #garden {
+  display: grid;
+  grid-template-columns: 1fr 1 2fr;
+  grid-template-rows: 2fr 2fr 2fr;
+} */
+
+
+.container {
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: .5em;
+  grid-auto-rows: minmax(800px, auto);
+}
+
+.box {
+  border-radius: 15px;
+  margin: 10px;
+  font: 20px;
+  text-align:center;
+}
+
+.box1 {
+  text-align: center;
+}
+
+#special {
+  background-color: #3b556f;
+}
+
+article {
+  background-color: #8598ac;
+  font-size: 24px;
+  padding: 10px;
+}
+
+
+/* @media screen and (min-width: 55em) {
+  body {
+    background: #d3c8bf;
+  }
+}
+
+@media screen and (max-width: 40em) {
+  body {
+    background: #9d554b;
+  }
+} */
