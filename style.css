@@ -5,23 +5,42 @@
 
 body {
   background-color: #3b556f;
+
 }
 
 nav {
-  display: flex;
-  justify-content: flex-end;
+  border: 4px solid black;
+}
+
+.primary-nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22%, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(15%, 1fr));
+  font: 24px;
+  width: 100%;
   padding: 10px;
-  height: 100px;
   background-color: #adb2b4;
   border-color: black;
   border: 10px;
+  border: 4px solid pink;
 }
 
-.secondary-nav {
-  align-items: flex-end;
-}
+/* .secondary-nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: minmax(2px, auto);
+  width: 100%;
+  height: 50px;
+  background-color: #adb2b4;
+  border-color: black;
+  border: 10px;
+  border: 4px solid pink;
+} */
 
-.people-icon {
+.username {
+  grid-column-start: 4;
+  display: flex;
+  justify-content: flex-end;
   height: 25px;
   margin: 2px;
   background-color: #adb2b4;
@@ -32,21 +51,83 @@ nav {
   margin: 2px;
 }
 
-.login-button {
+.shares-icon, .playlists-icon, .videos-icon, .company-icon {
+  display: flex;
+  align-self: flex-end;
+  justify-content: flex-end;
+  margin: 20px;
   height: 25px;
-  margin: 2px;
-  background-color: #adb2b4;
-  border-color: #adb2b4;
-  border: 2px solid #adb2b4;
-  font-family: arial;
-  color: #2b1aad;
+  width: 25px;
 }
 
-.logo {
-  height: 50px;
-  display: flex;
-  justify-cont
+.shares-icon {
+  grid-column-start: 1;
+  grid-row-start: 3;
 }
+
+.shares {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.playlists-icon {
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+.playlists {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.videos-icon {
+  grid-column-start: 3;
+  grid-row-start: 3;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.videos {
+  grid-column-start: 3;
+  grid-row-start: 3;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.company-icon {
+  grid-column-start: 4;
+  grid-row-start: 3;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.company-name {
+  grid-column-start: 4;
+  grid-row-start: 3;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  height: 25px;
+  margin: 20px;
+}
+
+
+
+.people-icon{
+  height: 24px;
+  width: 24px;
+}
+
+
 
 header {
   height: 200px;
@@ -120,6 +201,10 @@ article {
   <img src="https://image.flaticon.com/icons/svg/126/126509.svg" class="loaded">
 }
 
+.people-icon {
+  height: 24px;
+  width: 24px;
+}
 
 /* @media screen and (min-width: 55em) {
   body {
