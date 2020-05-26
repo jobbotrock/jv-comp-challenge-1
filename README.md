@@ -5,7 +5,12 @@ This was my first static-comp challenge, where the goal was to recreate the webs
 ## Original Layout
 ![alt text](https://raw.githubusercontent.com/jobbotrock/jv-comp-challenge-1/master/Screen%20Shot%202020-05-26%20at%203.35.22%20AM.png)
 
+## Launch Application
 
+Follow the link below 
+
+
+[title](https://www.example.com)
 
 ## My New Layout
 ![alt text](https://raw.githubusercontent.com/jobbotrock/jv-comp-challenge-1/master/Screen%20Shot%202020-05-26%20at%203.31.09%20AM.png)
