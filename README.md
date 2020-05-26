@@ -9,7 +9,7 @@ This was my first static-comp challenge, where the goal was to recreate the webs
 
 Follow the link below:
 
-[Joe Varela Comp Challenge](https://jobbotrock.github.io/jv-comp-challenge-1/)
+[Joe Varela Static Comp Challenge](https://jobbotrock.github.io/jv-comp-challenge-1/)
 
 
 ## My New Layout
