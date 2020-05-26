@@ -1,10 +1,133 @@
-body {
-  background-color: #3b556f;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.button {
-  justify-self: end;
+body {
+  background-color: #3b556f;
+
 }
+
+nav {
+  border: 4px solid black;
+}
+
+.primary-nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22%, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(15%, 1fr));
+  font: 24px;
+  width: 100%;
+  padding: 10px;
+  background-color: #adb2b4;
+  border-color: black;
+  border: 10px;
+  border: 4px solid pink;
+}
+
+/* .secondary-nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: minmax(2px, auto);
+  width: 100%;
+  height: 50px;
+  background-color: #adb2b4;
+  border-color: black;
+  border: 10px;
+  border: 4px solid pink;
+} */
+
+.username {
+  grid-column-start: 4;
+  display: flex;
+  justify-content: flex-end;
+  height: 25px;
+  margin: 2px;
+  background-color: #adb2b4;
+}
+
+.down-arrow {
+  height: 25px;
+  margin: 2px;
+}
+
+.shares-icon, .playlists-icon, .videos-icon, .company-icon {
+  display: flex;
+  align-self: flex-end;
+  justify-content: flex-end;
+  margin: 20px;
+  height: 25px;
+  width: 25px;
+}
+
+.shares-icon {
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+.shares {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.playlists-icon {
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+.playlists {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.videos-icon {
+  grid-column-start: 3;
+  grid-row-start: 3;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.videos {
+  grid-column-start: 3;
+  grid-row-start: 3;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.company-icon {
+  grid-column-start: 4;
+  grid-row-start: 3;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.company-name {
+  grid-column-start: 4;
+  grid-row-start: 3;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  height: 25px;
+  margin: 20px;
+}
+
+
+
+.people-icon{
+  height: 24px;
+  width: 24px;
+}
+
+
 
 header {
   height: 200px;
@@ -13,21 +136,23 @@ header {
   padding: 0;
 }
 
-.button {
-  grid.
-  justify-self: end;
-}
 
 div {
   height: 15px;
+
+}
+
+p {
+  font-family: arial;
+  color: white;
 }
 
 h1 {
   height: 200px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: .5em;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-auto-rows: minmax(2px, auto);
+  grid-gap: .5em;
   border-radius: 15px;
   font-family: arial;
   color: white;
@@ -39,15 +164,11 @@ h1 {
   background-color: #adb2b4;
 }
 
-#water {
-grid-column-start: 1;
+h2 {
+  height: 50px;
+  font-family: arial;
+  color: white;
 }
-
-/* #garden {
-  display: grid;
-  grid-template-columns: 1fr 1 2fr;
-  grid-template-rows: 2fr 2fr 2fr;
-} */
 
 
 .container {
@@ -55,7 +176,7 @@ grid-column-start: 1;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: .5em;
-  grid-auto-rows: minmax(800px, auto);
+  grid-auto-rows: minmax(600px, auto);
 }
 
 .box {
@@ -77,8 +198,13 @@ article {
   background-color: #8598ac;
   font-size: 24px;
   padding: 10px;
+  <img src="https://image.flaticon.com/icons/svg/126/126509.svg" class="loaded">
 }
 
+.people-icon {
+  height: 24px;
+  width: 24px;
+}
 
 /* @media screen and (min-width: 55em) {
   body {
@@ -90,4 +216,6 @@ article {
   body {
     background: #9d554b;
   }
-} */
+}
+<img srcset="
+<img srcset="https://cdn.pixabay.com/photo/2020/03/22/14/49/iceland-4957449_640.jpg 1x, https://cdn.pixabay.com/photo/2020/03/22/14/49/iceland-4957449_1280.jpg 2x" src="https://cdn.pixabay.com/photo/2020/03/22/14/49/iceland-4957449_640.jpg" alt="Iceland, Sea, Ocean, Nature, Water, Sky, Clouds">
